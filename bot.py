@@ -6,8 +6,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import asyncio
 
 
-SPOTIPY_CLIENT_ID = 'YOUR_CLIENT_ID'
-SPOTIPY_CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
+SPOTIPY_CLIENT_ID = 'afa0261f3fb5498d86174901e0ced2a3'
+SPOTIPY_CLIENT_SECRET = '42020a487d4d42b8a1e0d536dd9bc80a'
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET))
 
@@ -90,4 +90,4 @@ async def stop(ctx):
         song_queue.clear()
         await ctx.send('Stopped playing and cleared the queue.')
 
-bot.run('YOUR_BOT_TOKEN')
+bot.run('MTMyODA4Mzg0OTIwNDIwMzUyMA.GyWW9z.yFTN4YUjY6SvwfmTcv_fIRmF266l_Wri3g_BgA')
