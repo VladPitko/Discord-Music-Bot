@@ -90,4 +90,4 @@ async def stop(ctx):
         song_queue.clear()
         await ctx.send('Stopped playing and cleared the queue.')
 
-bot.run('MTMyODA4Mzg0OTIwNDIwMzUyMA.GyWW9z.yFTN4YUjY6SvwfmTcv_fIRmF266l_Wri3g_BgA')
+bot.run('MTMyODA4Mzg0OTIwNDIwMzUyMA.GnEJRq.2asM6_hTzVl4g6NpPuO88_whnXbmP4TvZ8t3Tc')
